@@ -23,7 +23,7 @@ Random assignment was simulated using a binomial distribution to represent corre
 
 - Total samples: 500 per group
 - Chosen to ensure sufficient statistical power to detect meaningful differences in accuracy
-
+This experiment uses 500 samples per group (1,000 total). This size is sufficient for this simulated environment to estimate performance differences between models. In a real-world scenario, the required sample size would be calculated based on expected effect size, statistical power, and significance level.
 ## Statistical Test
 
 - Two-sample t-test was used to compare mean accuracy between the two groups
