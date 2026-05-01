@@ -1,0 +1,9 @@
+{
+  "title": "Monitoring Dashboard",
+  "metrics": [
+    "request_count_total",
+    "error_count_total",
+    "request_latency_seconds",
+    "input_anomaly_count_total"
+  ]
+}
