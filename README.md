@@ -40,10 +40,8 @@ This project implements a production-style MLOps framework for a simulated AI pr
 - CTO memo: docs/cto-memo.md
 
 ## Setup
-1. Clone repo:
+1. Clone the repository:
 git clone https://github.com/jkaur2026/ids568-final-project-jkaur20.git
-
-2. Go into folder:
 cd ids568-final-project-jkaur20
 
 3. Create venv:
@@ -53,8 +51,11 @@ source .venv/bin/activate
 4. Install dependencies:
 pip install -r requirements.txt
 
-5. Run A/B test:
-python src/ab_test/simulation.py
+5. Run the monitoring AP:
+uvicorn src.monitoring.app:app --reload
+
+6. Run A/B test:
+python src/ab_test/ab_test_simulation.py
 
 6. Run drift detection:
 python src/drift/drift_detection.py
