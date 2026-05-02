@@ -72,20 +72,28 @@ Component 2 – A/B Testing
 Experiment design: docs/experiment-specification.md
 Simulation: src/ab_test/
 Recommendation: docs/recommendation-memo.md
+
+
 Component 3 – Governance
 Model card: docs/model-card.md
 Risk register: docs/risk-register.md
 Lineage diagram: docs/lineage-diagram.png
 Audit trail: logs/
+
+
 Component 4 – Drift Detection
 Scripts: src/drift/
 Visualizations: visualizations/
 Report: docs/drift-diagnostic-report.md
+
+
 Component 5 – Risk Assessment
 System diagram: docs/system-boundary-diagram.png
 Governance review: docs/governance-review.md
 Risk matrix: docs/risk-matrix.md
 CTO memo: docs/cto-memo.md
-Lessons Learned
 
+
+
+Lessons Learned
 This project showed that building an AI system is not just about model performance, but also about monitoring, reliability, and governance. Key takeaways include the importance of tracking system health through metrics, validating improvements using A/B testing, and documenting risks to ensure responsible AI deployment. The integration of all components highlights how real-world systems require continuous evaluation and oversight.
