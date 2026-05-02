@@ -11,6 +11,8 @@ The system uses a FastAPI-based service with simulated traffic and metrics to re
 ## Repository Structure
 
 src/
+
+
 ├── monitoring/ # Metrics instrumentation (Component 1)
 ├── ab_test/ # A/B testing simulation (Component 2)
 └── drift/ # Drift detection scripts (Component 4)
@@ -59,7 +61,9 @@ Run drift detection:
 
 python src/drift/drift_detection.py
 
-Component Deliverables
+Component Deliverables:
+
+
 Component 1 – Monitoring Dashboard
 Metrics instrumentation: src/monitoring/
 Dashboard configs: dashboards/
@@ -95,5 +99,5 @@ CTO memo: docs/cto-memo.md
 
 
 
-Lessons Learned
+Lessons Learned:
 This project showed that building an AI system is not just about model performance, but also about monitoring, reliability, and governance. Key takeaways include the importance of tracking system health through metrics, validating improvements using A/B testing, and documenting risks to ensure responsible AI deployment. The integration of all components highlights how real-world systems require continuous evaluation and oversight.
